@@ -4,7 +4,6 @@
     <title>W-Way</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="styles/styles.css">
     <style>
         .shower {
@@ -26,8 +25,6 @@
             
         }
     </style>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
 </head>
 <body class="shower list">
@@ -76,20 +73,12 @@
 			</ul>
 
 	</section>
-	<!-- 
+    
 	<section class="slide">
-			<h2>Paffst</h2>
-	</section>
-
-	<section class="slide">
-			<h2>L'amoore</h2>
-	</section>
-	 -->
-	<section class="slide">
-			<h2>Стек</h2>
+			<h2>Стек технологий</h2>
 
 			<ul>
-					<li class="next" value="😊"><strong>Frontend:</strong> HTML (<a href="https://github.com/jenssegers/blade">Blade</a>), CSS (<a href="https://sass-lang.com/">SCSS</a>), JavaScript (<a href="https://www.ecma-international.org/ecma-262/6.0/">ES6+</a>)</li>
+					<li class="next" value="😊"><strong>Frontend:</strong> <span class="next">HTML (<a href="https://github.com/jenssegers/blade">Blade</a>),</span> <span class="next">CSS (<a href="https://sass-lang.com/">SCSS</a>),</span> <span class="next">JavaScript (<a href="https://www.ecma-international.org/ecma-262/6.0/">ES6+</a>)</span></li>
 					<li class="next" value="😊"><strong>Frontend methodology: </strong> <a href="https://ru.bem.info/methodology/">BEM</a></li>
 					<li class="next" value="😊"><strong>Frontend framework:</strong> <a href="https://vuejs.org/">Vue.js</a>, <a href="https://router.vuejs.org/">Vue-router</a>, <a href="https://vuex.vuejs.org/">Vuex</a></li>
 					<li class="next" value="😊"><strong>Frontend technologies:</strong> <a href="https://babeljs.io/">Babel</a>, <a href="https://docs.npmjs.com/">npm</a>, <a href="https://webpack.js.org/concepts/">Webpack</a></li>
@@ -170,30 +159,44 @@
 						<li value="😊">JS (Ajax)</li>
 						<li value="😊">PHP</li>
 				</ul>
-				<figure>
-						<img class="" src="pictures/test.svg">
-						<figcaption class="white">
-								<a href="https://bitbucket.org/vysotsky-productions/test-task/">test task</a>
-						</figcaption>
-				</figure>
 			</div>
-			<style>
-				#test-description .wrapper {
-					display: -webkit-flex;
-					display: -moz-flex;
-					display: -ms-flex;
-					display: -o-flex;
-					display: flex;
-					justify-content: space-between;
-				}
-				#test-description .wrapper > * {
-					flex: 1;
-				}
-				#test-description .wrapper > *:last-child {
-					text-align: center;
-				}
-			</style>
-	</section>
+    </section>
+
+<section class="slide clear" id="challenge">
+    <h2>готов принять вызов?</h2>
+    <img src="pictures/challenge.jpeg" alt="w-way challenge" class="cover height width">
+    <figure class="place right bottom">
+        <img class="" src="pictures/test.svg">
+        <figcaption class="white">
+                <a href="https://bitbucket.org/vysotsky-productions/test-task/">
+                    тогда жми!
+                </a>
+        </figcaption>
+    </figure>
+    <style>
+        #challenge h2 {
+            text-align: center;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+
+        #challenge figure {
+            right: 20%;
+            bottom: 5px;
+        }
+
+        #challenge a {
+            line-height: 1;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+
+        #challenge figcaption {
+            text-align: center;
+            line-height: 1;
+        }
+    </style>
+</section>
 
 	<section class="slide info">
 			<h2>Ваши вопросы</h2>
@@ -220,9 +223,6 @@
 
 	<script src="./shower/shower.min.js"></script>
 	<script src="./shower/include.js"></script>
-	<script>
-			new WOW().init();
-	</script>
 
 
 </body>
